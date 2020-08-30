@@ -1,0 +1,10 @@
+{
+    "onWindowCreated": 
+        [
+            {
+                "script": "kls mac", 
+                "type": "cmd"
+            }        
+        ]
+    
+}
