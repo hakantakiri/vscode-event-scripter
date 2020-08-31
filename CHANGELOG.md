@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "event-scripter" extension will be documented in this file.
+This changelog is based on [Keep a Changelog](https://keepachangelog.com/) 
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1] - 2020-08-30
 
-## [Unreleased]
-
-- Initial release
+### Added
+- **FIRT RELEASE**
+- Built support for command line scripts
+- Built support for event `onWindowCreated`
+- Extension Command: **Open Script File** to open and edit script files

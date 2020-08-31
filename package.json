@@ -1,8 +1,13 @@
 {
 	"name": "event-scripter",
 	"displayName": "Event Scripter",
-	"description": "Run custom commands when VS Code events get triggered",
+	"description": "Build scripts and trigger them on VS Code events",
 	"version": "0.0.1",
+	"publisher": "HakanTakiri",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hakantakiri/vscode-event-scripter.git"
+	},
 	"engines": {
 		"vscode": "^1.48.0"
 	},

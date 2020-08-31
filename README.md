@@ -1,65 +1,41 @@
-# event-scripter README
+# Event Scripter
 
-This is the README for your extension "event-scripter". After writing up a brief description, we recommend including the following sections.
+Build scripts and trigger them on VS Code events
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This is simple, put your scripts inside the Scripts json file and wait for them to be executed whenever a VS Code event is triggered.
+Follow the next two steps to make it happen:
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+## Extension Setup
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1.- Run command `event-scripter.openScriptFile` or type `Event Scripter: Open script File (json)` to open Script File
 
-## Requirements
+2.- Place your script and specify the script type
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Supported events and script types
 
-## Extension Settings
+Supported events:
+- **onWindowCreated** : Whenever a VSCode window is opened
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Supported script types:
+- **cmd**: Inline terminal command
 
-For example:
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+### Enjoy!
+-------------------------
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
 
-### 1.0.0
+## [0.0.1] - 2020-08-30
 
-Initial release of ...
+### Added
+- **FIRT RELEASE**
+- Built support for command line scripts
+- Built support for event `onWindowCreated`
+- Extension Command: **Open Script File** to open and edit script files
 
-### 1.0.1
+For previous release notes check the Changelog
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
